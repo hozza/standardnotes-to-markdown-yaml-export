@@ -192,7 +192,7 @@ foreach ($notes as $note_uuid => $note_data) {
 	if(isset($note_data['created_at'])) {
 
 		// create unique Zettel-style timestamp IDs.
-		$note_id_prefix = '§';
+		$note_id_prefix = '';
 		$note_seconds = strtotime($note_data['created_at']);
 
 		$note_id = $note_id_prefix.date("YmdHis", $note_seconds);
