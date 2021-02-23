@@ -4,6 +4,8 @@
 
 # Export [Standard Notes](https://github.com/standardnotes/web) decrypted backup JSON as separate Markdown files with YAML frontmatter. 
 
+Link: https://github.com/hozza/standardnotes-to-markdown-yaml-export
+
 Great keeping your notes metadata in a plaintext backup for longevity, or for migrating to [Zettlr](https://github.com/zettlr/zettlr), [Notable.app](https://github.com/notable/notable), and other note taking apps which use a plaintext markdown format.
 
 
