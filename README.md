@@ -2,14 +2,29 @@
 
 This script can be used to export "Standard Notes" notes into plaintext markdown files while retaining the notes metadata like modification time, creation time, notes status (archived, trashed, pinned) and any tags.
 
+Key Features:
+- Export Standrd Notes to Markdown
+- Keeps modificaton date of notes
+- Keeps tags
+- Universal format (e.g. great for Zettlr, Obsidian.md and Notable.app or plain-text)
+- Keeps/creates Zettelkasten features
+- Removed duplicates form corrupted Standard Notes exports
+- Can be used as a ongoing backup
+
+## Installation & Usage
+
+On Linux install php, download the script and from terminal.
+
 In the same directory as the Standard Notes exported backup file:
 
-`php ./standard-notes-to-markdown.php name-of-sn-export-file.txt ./location/to/export/notes/`
+```
+php ./standard-notes-to-markdown.php name-of-sn-export-file.txt ./location/to/export/notes/
+```
 
 *Notice: I wrote this very quickly one afternoon after realizing the Standard Notes exported backup markdown files don't contain any tags or modification times etc. It's written quickly in PHP with no particular coding standard.*
 
 
-## Exporter Additional Info and Examples
+## Additional Info and Examples
 
 It will take all the information from Standard Notes, remove duplicate notes and tags and outputs separate markdown files for each note with all the tags and dates etc in the note. This is also useful for fixing Standard Notes duplication/corruption bugs during export.
 
