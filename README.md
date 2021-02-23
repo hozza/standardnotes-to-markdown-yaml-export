@@ -9,14 +9,14 @@ In the same directory as the Standard Notes exported backup file:
 *Notice: I wrote this very quickly one afternoon after realizing the Standard Notes exported backup markdown files don't contain any tags or modification times etc. It's written quickly in PHP with no particular coding standard.*
 
 
+## Exporter Additional Info and Examples
+
 It will take all the information from Standard Notes, remove duplicate notes and tags and outputs separate markdown files for each note with all the tags and dates etc in the note. This is also useful for fixing Standard Notes duplication/corruption bugs during export.
 
 Notes are exported into the path you specify or `./notes/` is none is specified with the filename of `Note Title ID_NUMBER.md` with the appropriate modification time on the file. 
 
 *Any title character commonly not allowed in filenames will be replaced with a hyphen `-`.*
 
-
-## Standard Notes to Markdown Exporter Usage
 
 ### Migrating/Exporting [Standard Notes](https://github.com/standardnotes/web) to [Zettlr](https://github.com/zettlr/zettlr), [Notable.app](https://github.com/notable/notable), [Obsidian.md](https://obsidian.md/) and other Second Brain/[PKMs](https://en.wikipedia.org/wiki/Personal_knowledge_management).
 
