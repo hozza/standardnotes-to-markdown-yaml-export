@@ -207,7 +207,7 @@ foreach ($notes as $note_uuid => $note_data) {
 
 		// manual tag YAML
 		if(!empty($note_data['tags'])) {
-			$note_tags_yaml = "keywords:\n";
+			$note_tags_yaml = "tags:\n";
 			foreach ($note_data['tags'] as $note_tag_title => $value) {
 				$note_tags_yaml .= "  - $note_tag_title\n";
 			}
