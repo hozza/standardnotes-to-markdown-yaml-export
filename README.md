@@ -1,3 +1,6 @@
+> [!WARNING]
+> Migrated to Codeberg https://codeberg.org/teatowel/standardnotes-to-markdown-yaml-export
+
 # Export Standard Notes to Markdown
 
 Export "Standard Notes" into plaintext markdown files while retaining metadata like modification time, creation time, status (archived, trashed, pinned) and any tags.
